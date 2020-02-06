@@ -1,24 +1,28 @@
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 ## Flix Part 2
+
+**Flix** is a movies scroll view made by fetching data remotely.
+
+Submitted by: **Junhong Pan (Paul)**
+
+Time spent: **5** hours spent in total
 
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (5pts) User can tap a cell to see more details about a particular movie.
-- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="ezgif-6-baf35426f822.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+I encountered difficulties in the superheroes page in scaling the movie images to the correct size. It turns out that there is a newly added feature in iOS that automatically scales the images in storyboard. Thanks to the Slack channel, I was able to get the issue resolved. Other than the above mentioned issue, I spent quite some time exploring AutoLayout, missing several constraints until I finally got it right.
 
 
 
