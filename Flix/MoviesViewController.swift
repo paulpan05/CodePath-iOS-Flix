@@ -68,7 +68,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("Loading up the details screen")
         let cell = sender as! UITableViewCell
         let indexPath = tableView.indexPath(for: cell)!
         let movie = movies[indexPath.row]
