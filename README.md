@@ -21,6 +21,8 @@ Time spent: **5** hours spent in total
 
 <img src="ezgif-6-baf35426f822.gif" width=250><br>
 
+GIF created with [ezgif](https://ezgif.com/video-to-gif).
+
 ### Notes
 I encountered difficulties in the superheroes page in scaling the movie images to the correct size. It turns out that there is a newly added feature in iOS that automatically scales the images in storyboard. Thanks to the Slack channel, I was able to get the issue resolved. Other than the above mentioned issue, I spent quite some time exploring AutoLayout, missing several constraints until I finally got it right.
 
